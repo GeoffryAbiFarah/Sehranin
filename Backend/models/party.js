@@ -13,6 +13,20 @@ const partySchema = new Schema({
         type: String,
         required: true
     },
+    address: {
+        type: String,
+        required: true
+    },
+    //date of the party, format:
+    date: {
+        type: String,
+        required: true
+    },
+    //doors open at : X
+    open: {
+        type: String,
+        required: true
+    },
     number: {
         type: String,
         required: true
