@@ -9,6 +9,10 @@ const partySchema = new Schema({
         type: String,
         required: true
     },
+    author: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'User'
+    },
     place: {
         type: String,
         required: true
@@ -52,7 +56,7 @@ const partySchema = new Schema({
         type: Boolean,
         default: false
     }
-},{
+}, {
     timestamps: true
 });
 
