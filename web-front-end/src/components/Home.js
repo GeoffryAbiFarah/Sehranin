@@ -1,12 +1,13 @@
 import {Component} from 'react';
 import "../styles/Home.css";
+import PartyCard from "./PartyCard";
 
 class Home extends Component{
 
     render(){
         return(
             <div>
-                Browse for party here
+                <PartyCard/>
             </div>
         );
     }

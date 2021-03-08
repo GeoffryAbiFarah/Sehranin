@@ -1,5 +1,5 @@
 import {Component} from 'react';
-import {Button, Form, FormGroup, Label, Input, FormText, Row, InputGroup, InputGroupText} from 'reactstrap';
+import {Button, Form, FormGroup, Label, Input, InputGroup, InputGroupText} from 'reactstrap';
 
 class PostParty extends Component{
 
