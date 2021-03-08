@@ -45,8 +45,8 @@ class PostParty extends Component{
                             id="number-id"
                             placeholder="Ex. 71 112233"
                             pattern="[0-9]{8}"
-                            minlength="8"
-                            maxlength="8"
+                            minLength="8"
+                            maxLength="8"
                         />
                     </FormGroup>
                     <FormGroup >
