@@ -2,5 +2,5 @@
 
 module.exports = {
     'secretKey': '12345-67890-09876-54321',
-    'mongoUrl': 'mongodb://localhost:27017/sehranin'
+    'mongoUrl': 'mongodb+srv://GeoffryAF:dreamTeam101@sehranin.sre5m.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 }

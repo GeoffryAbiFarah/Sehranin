@@ -14,11 +14,11 @@ const User = new Schema({
     },
     email: {
         type: String,
-        required: true
+        required: false
     },
     age: {
         type: Number,
-        required: true,
+        required: false,
         min: 16
     },
     phone: {
