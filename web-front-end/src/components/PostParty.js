@@ -1,7 +1,36 @@
 import {Component} from 'react';
 import {Button, Form, FormGroup, Label, Input, InputGroup, InputGroupText} from 'reactstrap';
 
+
 class PostParty extends Component{
+
+    onSubmit(){
+        // const title = document.getElementById('title-id').value.toString();
+        // const place = document.getElementById('place-id').value.toString();
+        // const address = document.getElementById('address-id').value.toString();
+        // const date = document.getElementById('date-id').value.toString();
+        // const time = document.getElementById('time-id').value.toString();
+        // const number = document.getElementById('number-id').value.toString();
+        // const price = document.getElementById('price-id').value.toString();
+        // const drinks = document.getElementById('drinks-id').value.toString();
+        // const description = document.getElementById('description-id').value.toString();
+        // const image = document.getElementById('image-id').value.toString();
+        //
+        // const data = {
+        //     title,
+        //     place,
+        //     address,
+        //     date,
+        //     time,
+        //     number,
+        //     price,
+        //     drinks,
+        //     description,
+        //     image
+        // }
+        // console.log("in component:" , data);
+
+    }
 
     render(){
         return(
@@ -73,8 +102,9 @@ class PostParty extends Component{
 
                     </FormGroup>
 
-                    <Button className="text-center">Submit</Button>
+
                 </Form>
+                <Button className="text-center" onClick={() => this.onSubmit()}>Submit</Button>
             </div>
         );
     }
